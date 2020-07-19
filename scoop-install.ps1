@@ -20,6 +20,7 @@ $Packages = @(
     "git"
     "go"
     "googlechrome"
+    "gsudo"
     "ilspy"
     "linqpad"
     "nodejs-lts"
