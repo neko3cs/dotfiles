@@ -7,16 +7,11 @@ param(
 $Buckets = @(
     "extras"
 )
-# TODO: 無いツールどうするか考える（ある bucket を探すか自前 bucket を作る）
 $Packages = @(
     "7zip"
-    # "adobereader"
     "azure-cli"
-    # "chocolatey"
     # "ctrl2cap"
-    "cubepdf"
-    "cubepdfutility"
-    "docker"
+    # "cubepdf"
     "git"
     "go"
     "googlechrome"
@@ -29,12 +24,11 @@ $Packages = @(
     "screentogif"
     "slack"
     "vscode"
-    # "visualstudio2019buildtools"
+    "vswhere"
     "winmerge"
     "zoom"
 )
 $PackagesForPrivate = @(
-    "coretemp"
     "cpu-z"
     "discord"
 )
